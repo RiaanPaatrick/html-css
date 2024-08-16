@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+        }
+
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        nav{
+            background-color: rgb(102, 102, 102);
+            padding: 6px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.33);
+            border-radius: 3px; 
+            margin: 0 auto;
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 50px;
+            font-size: 16px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        nav > a:hover{
+            transform: scale(1.5);
+        }
+
+        h1{
+            margin: 0px;
+            padding-bottom: 10px;
+            text-align: center;
+        }
+
+        main{
+            background-color: rgba(255, 255, 255, 0.703);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 10px 10px 10px;
+        }
+        p{
+            text-align: center;
+        }
+
+        div#bola{
+            height: 100px;
+            width: 100px;
+            background-color: black;
+            border-radius: 50%;
+            margin: 100px;
+        }
+    </style>
+
+</head>
+
+<body>
+    
+    <header>
+        <h1>Site diversao e conteudo</h1>
+        <nav>
+            <a class="link" href="#">Menu </a>
+            <a class="link" href="#">Menu </a>
+            <a class="link" href="#">Menu </a>
+            <a class="link" href="#">Menu </a>
+        </nav>
+
+    </header>
+    
+    <main>
+        <section id="assuntos">
+            <h1>Fórmula de Bhaskara</h1>
+            <p>A fórmula de Bhaskara é um método resolutivo para equações do segundo
+                grau cujo nome homenageia o grande matemático indiano que a demonstrou.
+                Essa fórmula nada mais é do que um método para encontrar as raízes reais
+                de uma equação do segundo grau fazendo uso apenas de seus coeficientes.
+                Vale lembrar que coeficiente é o número que multiplica uma incógnita em uma equação.</p>
+            <h2>Como resolver equações do segundo grau com a fórmula de Bhaskara?</h2>
+            <p>Resolver uma equação do segundo grau é encontrar os valores de x (ou da incógnita proposta)
+                que fazem com que essa equação seja igual a zero.</p>
+            <p>O método resolutivo de Bhaskara apenas exige que o valor numérico de cada coeficiente seja
+                substituído na fórmula de Bhaskara. Após isso, basta realizar as operações matemáticas indicadas
+                pela fórmula para obter as raízes da equação. Contudo, esse método costuma ser dividido em três
+                etapas para facilitar a compreensão por parte dos alunos.</p>
+        </section>
+
+        <section id="noticias">
+        </section>
+    </main>
+
+    <footer>    
+
+    </footer>
+
+    <div id="bola"></div>
+
+</body>
+
+</html>

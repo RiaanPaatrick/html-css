@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Gang';
+    src: url('OldLondon.ttf') format(opentype), url(Olondon.otf) format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: 'Gang', Helvetica, sans-serif;
+}
+
+h1{
+    font-family: 'Gang', Times, serif;
+    font-size: 3em;
+}
+
+
+

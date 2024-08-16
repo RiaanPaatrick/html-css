@@ -1,0 +1,127 @@
+@font-face {
+    font-family: 'android';
+    src: url('fontes/idroid.otf') format(opentype), url(fontes/idroid.otf) format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* ---------------- CABEÇALHO ---------------------*/
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #BDBFBF;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.495);
+    height: 170px;
+    box-sizing: border-box;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-image: linear-gradient(to top, #02343f,#013440, #026873, #025159);
+}
+
+nav{
+    background-color: #838383a7;
+    width: 1000px;
+    padding: 8px;
+    margin: 0 auto;
+    border-radius: 15px;
+    box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.33);
+    text-align: center;
+}
+
+nav > a:hover{
+    transform: scale(1.5);
+}
+
+nav > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 0.5px 20px;
+    font-size: 20px;
+    transition: transform 0.3s ease-in-out;
+    display: inline-block;
+}
+
+header > h1{
+    color: white;
+}
+
+header > p{
+    color: white;
+    font-family: Georgia, serif;
+}
+
+/* ------------- CONTEUDO PRINCIPAL --------------------*/
+
+span.azul{
+    color: #026873;
+    font-weight: bold;
+}
+
+.centralizar{
+    width: 70%;
+    background-color: white;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+div{
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.259);
+}
+
+div > h1{
+    font-family: android, Helvetica, sans-serif;
+    color: #025159;
+}
+
+div > h2{
+    font-family: android, Helvetica, sans-serif;
+    color: #025159;
+    background-image: linear-gradient(to right, #06a3b4b9, white);
+}
+
+div > p{
+    font-family: Georgia, serif;
+    font-size: 1.2em;
+    text-indent: 20px;
+}
+
+.imagem{
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.video{
+    border: 65px solid #026873;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: -20px;
+    margin-bottom: 30px;
+}
+
+.final{
+    background-color: #0494a46b;
+    border-radius: 8px;
+}
+
+.aprender{
+    color: white;
+    font-weight: bold;
+    background-color: #025159;
+    border-radius: 8px 8px 0px 0px;
+    font-size: 20px;
+}
+
+

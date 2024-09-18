@@ -11,11 +11,26 @@
 
     <h1>Teste de formulário</h1>
 
-    <form action="" method="get">
+    <form action="cadastro.php" method="get" autocomplete="on">
 
         <p>
             <label for="nome">Nome:</label>
-            <input type="text" name="nome" id="nome" required maxlength="30">
+            <input type="text" name="nome" id="nome" required maxlength="30" placeholder="Nome Completo" autocomplete="name">
+        </p>
+
+        <p>
+            <label for="media">Média</label>
+            <input type="number" name="media" id="media" min="0" max="10" step="0.1">
+        </p>
+
+        <p>
+            <label for="periodo">Periodo Letivo</label>
+            <input type="time" name="mes" id="periodo">
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
         </p>
 
     </form>

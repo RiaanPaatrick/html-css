@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+/* Estilo Para Telas */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin-top: 150px;
+    background-color: #B3B0BF;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+h2{
+    padding-bottom: 30px;
+}
+
+header{
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #3D5473;
+    text-align: center;
+    margin-bottom: 10px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+}
+
+header > h1{
+    padding-top: 10px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3em;
+    color: #faf9f67d;
+}
+
+header ul{
+    list-style-type: none;
+    padding: 10px 5px 10px 5px;
+}
+
+header li{
+    background-color: #faf9f67d;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 7px;
+    transition: 0.3s;
+    transform-origin: top; 
+    line-height: 1.5; 
+}
+
+article{
+    max-width: 50%;
+    display: block;
+    margin: auto;
+    padding: 20px;
+    line-height: 27px;
+    background-color: #faf9f67d;
+    border-radius: 15px;
+    text-align: center;
+}
+
+li:hover{
+    transform: scale(1.1);
+    background-color: #a4a4a37d;
+}

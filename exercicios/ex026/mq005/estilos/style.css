@@ -28,13 +28,17 @@
 
 body{
     color: black;
-    background-image: url(../imagens/backgroundburaconegro2.jpg);
+    background-image: url(../imagens/backgroundcelular2.jpg);
     background-size: cover;
-    background-position: center center;
+    background-position: center bottom;
 }
 
 header{
     background-color: rgba(128, 128, 128, 0.321);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 header > h1{
@@ -42,19 +46,44 @@ header > h1{
     text-align: center;
     color: whitesmoke;
     font-family: 'nucklebold', sans-serif;
+    margin: 0;
+}
+
+span#burger{
+    color: whitesmoke;
+    padding: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+    user-select: none;
+}
+
+span#burger:hover{
+    transform: scale(1.5);
+    cursor: pointer;
 }
 
 nav{
-    display: block;
+    display: none;
 }
 
-nav > ul > li > a {
-    display: block;
-    padding: 10px;
+nav > ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding-bottom: 15px;
+}
+
+nav > ul > li{
+    padding-right: 15px;
+}
+
+nav > ul > li > a{
+    display: inline-block;
+    padding: 15px;
     text-decoration: none;
-    text-align: center;
-    background-color: rgba(70, 68, 68, 0.199);
-    border-top: 2px solid rgb(186, 184, 184);
+    background-color: rgba(13, 13, 13, 0.379);
+    color: white;
+    border-radius: 30px;
 }
 
 nav > ul > li > a:hover{
@@ -63,7 +92,7 @@ nav > ul > li > a:hover{
 
 main{
     width: 85vw;
-    background-color: rgba(255, 255, 255, 0.883);
+    background-color: rgba(255, 255, 255, 0.599);
     margin: auto;
     margin-top: 10px;
     padding: 10px;
@@ -89,10 +118,8 @@ article > p{
 
 article{
     display: block;
-    justify-content: center;
     align-items: center;
     height: 100%;
-
 }
 
 article img{

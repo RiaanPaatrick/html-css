@@ -1,11 +1,22 @@
 @charset "UTF-8";
+
 @font-face {
     font-family: nucklebold;
-    src: url(../fontes/Nuckle\ Trial\ Bold.otf);
+    src: url(../fontes/NuckleTrialBold.otf);
 }
 @font-face {
     font-family: nuckle;
-    src: url(../fontes/Nuckle\ Trial\ Regular.otf);
+    src: url(../fontes/NuckleTrialRegular.otf);
+}
+
+@font-face {
+    font-family: nucklelight;
+    src: url(../fontes/NuckleTrialLight.otf);
+}
+
+@font-face {
+    font-family: nucklesemibold;
+    src: url(../fontes/NuckleTrialSemiBold.otf);
 }
 
 *{
@@ -66,9 +77,11 @@ h2#titulo2{
 }
 
 article > p{
-    text-align: justify;
+    text-align: left;
     margin-bottom: 20px;
-    text-indent: 20px;
+    font-size: 17px;
+    line-height: 25px;
+    font-family: 'nuckle', 'Times New Roman', Times, serif
 }
 
 article{
@@ -90,5 +103,12 @@ blockquote#citacao{
     border-left: 1px solid black;
     padding-left: 18px;
     line-height: 24px;
-    font-family: nuckle;
+    font-family: nucklelight;
+}
+
+blockquote#citacao2{
+    font-size: 0.9em;
+    border-left: 1px solid black;
+    padding: 15px 0px 0px 18px ;
+    font-family: nucklelight;
 }
